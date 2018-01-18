@@ -5,6 +5,7 @@ def fizzbuzz(number)
     "Buzz"
   else number % 5 == 0
     "FizzBuzz"
-
+  else
+    nil
   end
 end
